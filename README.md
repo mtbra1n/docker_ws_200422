@@ -1,15 +1,23 @@
 [Go to GitHub Repository](https://github.com/mtbra1n/docker_ws_200422.git)
 
-# Build an image
+# Get an image
+
+## (Option 1) Build an image
 
 ```bash
-docker build -t [__IMAGE__]:[__TAG__] .
+docker build -t kpark/docker_ws_200422 .
+```
+
+## (Option 2) Pull an image
+
+```bash
+docker pull kpark/docker_ws_200422
 ```
 
 # Run a container
 
 ```bash
-docker run --rm -it [__IMAGE__]:[__TAG__]
+docker run --rm -it kpark/docker_ws_200422
 ```
 
 ## Result:
